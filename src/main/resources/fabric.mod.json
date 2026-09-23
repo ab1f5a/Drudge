@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "drudge",
+	"version": "${version}",
+	"name": "Drudge",
+	"description": "Takes the tedious, repetitive work off your hands: felling trees, boring tunnels and clearing out areas. Configure everything from a vanilla-style settings screen, and toggle each feature from its own keybind.",
+	"authors": [
+		"ab1f5a"
+	],
+	"license": "GPL-3.0",
+	"icon": "assets/drudge/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.ab1f5a.drudge.DrudgeInitializer"
+		]
+	},
+	"mixins": [
+		{
+			"config": "drudge.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"accessWidener": "drudge.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"fabric-api": "*",
+		"minecraft": "~1.21.11",
+		"java": ">=21"
+	}
+}

@@ -1,0 +1,18 @@
+accessWidener	v1	named
+
+# Drudge only widens the handful of vanilla members its features and rendering
+# code actually touch. Anything not used here is deliberately left private.
+
+# DrudgeRenderLayers / DrudgeShaderPipelines
+
+# BreakFlow / AutoToolSwitch / TreeFeller / TunnelBorer / AreaExcavator
+accessible	field	net/minecraft/client/multiplayer/MultiPlayerGameMode	destroyDelay	I
+accessible	field	net/minecraft/client/multiplayer/MultiPlayerGameMode	isDestroying	Z
+accessible	field	net/minecraft/client/multiplayer/MultiPlayerGameMode	destroyProgress	F
+
+# TunnelBorer
+accessible	field	net/minecraft/client/Minecraft	rightClickDelay	I
+
+# RotationUtils
+accessible	field	net/minecraft/client/player/LocalPlayer	xRotLast	F
+accessible	field	net/minecraft/client/player/LocalPlayer	yRotLast	F

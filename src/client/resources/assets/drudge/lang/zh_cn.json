@@ -1,0 +1,94 @@
+{
+	"key.category.drudge.main": "Drudge",
+	"key.drudge.open_config": "打开 Drudge 设置",
+	"key.drudge.toggle.autotoolswitch": "切换自动换工具",
+	"key.drudge.toggle.breakflow": "切换连续挖掘",
+	"key.drudge.toggle.treefeller": "切换砍树",
+	"key.drudge.toggle.tunnelborer": "切换挖隧道",
+	"key.drudge.toggle.areaexcavator": "切换区域挖掘",
+
+	"gui.drudge.config.title": "Drudge 设置",
+
+	"chat.drudge.prefix.drudge": "§c[§6Drudge§c]§r ",
+	"chat.drudge.prefix.error": "§c[§4§l错误§c]§r ",
+
+	"gui.drudge.feature.autotoolswitch": "自动换工具",
+	"gui.drudge.feature.breakflow": "连续挖掘",
+	"gui.drudge.feature.treefeller": "砍树",
+	"gui.drudge.feature.tunnelborer": "挖隧道",
+	"gui.drudge.feature.areaexcavator": "区域挖掘",
+
+	"gui.drudge.feature.treefeller.searching": "砍树 [搜索中]",
+	"gui.drudge.feature.treefeller.going": "砍树 [前往中]",
+	"gui.drudge.feature.treefeller.chopping": "砍树 [砍伐中]",
+	"gui.drudge.feature.tunnelborer.progress": "挖隧道 [%s/%s]",
+	"gui.drudge.feature.areaexcavator.progress": "区域挖掘 %s",
+	"gui.drudge.hud.treefeller": "自动砍树中...",
+	"gui.drudge.hud.areaexcavator": "挖掘中：%s",
+	"gui.drudge.hud.autotoolswitch": "自动切换工具中...",
+	"gui.drudge.hud.tunnelborer": "挖掘隧道中...",
+
+	"gui.drudge.feature.areaexcavator.step.start_pos": "请选择起始位置。",
+	"gui.drudge.feature.areaexcavator.step.end_pos": "请选择终点位置。",
+	"gui.drudge.feature.areaexcavator.step.scan_area": "正在扫描区域…",
+	"gui.drudge.feature.areaexcavator.step.excavate": "正在挖掘…",
+	"gui.drudge.feature.areaexcavator.confirm": "按回车确认，或重新选择位置。",
+
+	"gui.drudge.setting.treefeller.range": "范围",
+	"gui.drudge.setting.treefeller.face_target": "瞄准方式",
+	"gui.drudge.setting.treefeller.swing_hand": "挥手方式",
+	"gui.drudge.setting.autotoolswitch.use_swords": "使用剑",
+	"gui.drudge.setting.autotoolswitch.use_hands": "空手",
+	"gui.drudge.setting.autotoolswitch.repair_mode": "修理模式",
+	"gui.drudge.setting.autotoolswitch.switch_back": "自动切回",
+	"gui.drudge.setting.tunnelborer.tunnel_size": "隧道尺寸",
+	"gui.drudge.setting.tunnelborer.limit": "长度上限",
+	"gui.drudge.setting.tunnelborer.place_torches": "放置火把",
+	"gui.drudge.setting.areaexcavator.range": "范围",
+	"gui.drudge.setting.areaexcavator.mode": "模式",
+
+	"gui.drudge.enum.facetarget.off": "关闭",
+	"gui.drudge.enum.facetarget.server_side": "服务端",
+	"gui.drudge.enum.facetarget.client_side": "客户端",
+	"gui.drudge.enum.swinghand.off": "关闭",
+	"gui.drudge.enum.swinghand.server_side": "服务端",
+	"gui.drudge.enum.swinghand.client_side": "客户端",
+	"gui.drudge.enum.mode.fast": "快速",
+	"gui.drudge.enum.mode.legit": "正常",
+
+	"gui.drudge.unit.blocks": " 格",
+	"gui.drudge.unit.one_block": "1 格",
+	"gui.drudge.unit.disabled": "禁用",
+	"gui.drudge.unit.off": "关闭",
+
+	"chat.drudge.tunnelborer.completed": "隧道已挖通。",
+	"chat.drudge.tunnelborer.floor_hole": "隧道底部有个缺口，但没有方块可以填补。",
+	"chat.drudge.tunnelborer.flooded": "隧道进水了，无法继续。",
+	"chat.drudge.tunnelborer.out_of_torches": "火把用完了。",
+
+	"description.drudge.feature.autotoolswitch": "挖任何方块前，自动切换到快捷栏里最合适的工具。",
+	"description.drudge.feature.breakflow": "取消方块之间的停顿，可以不停地连续挖掘。",
+	"description.drudge.feature.treefeller": "从底部开始，把整棵树一次砍完。",
+	"description.drudge.feature.tunnelborer": "朝你面朝的方向挖一条笔直的隧道。",
+	"description.drudge.feature.areaexcavator": "清空你选定的两个对角之间的所有方块。",
+
+	"description.drudge.setting.treefeller.range": "砍树时能够到多远的方块去破坏。",
+	"description.drudge.setting.treefeller.face_target": "砍树破坏方块时的瞄准方式。",
+	"description.drudge.setting.treefeller.swing_hand": "砍树破坏方块时的挥手方式。",
+
+	"description.drudge.setting.autotoolswitch.use_swords": "使用剑来破坏树叶、蜘蛛网等方块。",
+	"description.drudge.setting.autotoolswitch.use_hands": "找不到合适的工具时，改用空手或不会损耗耐久的物品。",
+	"description.drudge.setting.autotoolswitch.repair_mode": "工具剩余耐久降到设定值时就不再使用，方便你在它们损坏前修理。\n可以设为 0（关闭）到 100 次剩余使用。",
+	"description.drudge.setting.autotoolswitch.switch_back": "用完工具后，自动切回之前选中的快捷栏槽位。",
+
+	"description.drudge.setting.tunnelborer.limit": "隧道达到指定长度后自动停止。\n\n0 = 不限制",
+	"description.drudge.setting.tunnelborer.place_torches": "放置刚好够用的火把，防止隧道里刷出怪物。",
+
+	"description.drudge.setting.generic.face_target.off": "从不瞄准任何东西。",
+	"description.drudge.setting.generic.face_target.server": "只在服务端瞄准，所以你看不到视角转动。",
+	"description.drudge.setting.generic.face_target.client": "在客户端瞄准，所以你能看到视角转动。",
+
+	"description.drudge.setting.generic.swing_hand.off": "完全不挥手。",
+	"description.drudge.setting.generic.swing_hand.server": "在服务端挥手，所以其他玩家能看到动画。",
+	"description.drudge.setting.generic.swing_hand.client": "在客户端挥手，所以只有你能看到动画。"
+}
