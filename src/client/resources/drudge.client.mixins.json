@@ -1,0 +1,19 @@
+{
+	"required": true,
+	"package": "com.ab1f5a.drudge.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"HudMixin",
+		"KeyMappingMixin",
+		"LevelRendererMixin",
+		"LocalPlayerMixin",
+		"MinecraftMixin",
+		"MultiPlayerGameModeMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
