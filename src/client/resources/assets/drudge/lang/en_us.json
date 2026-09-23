@@ -1,0 +1,94 @@
+{
+	"key.category.drudge.main": "Drudge",
+	"key.drudge.open_config": "Open Drudge Settings",
+	"key.drudge.toggle.autotoolswitch": "Toggle Auto Tool Switch",
+	"key.drudge.toggle.breakflow": "Toggle Continuous Mining",
+	"key.drudge.toggle.treefeller": "Toggle Tree Felling",
+	"key.drudge.toggle.tunnelborer": "Toggle Tunnel Boring",
+	"key.drudge.toggle.areaexcavator": "Toggle Area Excavation",
+
+	"gui.drudge.config.title": "Drudge Settings",
+
+	"chat.drudge.prefix.drudge": "§c[§6Drudge§c]§r ",
+	"chat.drudge.prefix.error": "§c[§4§lERROR§c]§r ",
+
+	"gui.drudge.feature.autotoolswitch": "Auto Tool Switch",
+	"gui.drudge.feature.breakflow": "Continuous Mining",
+	"gui.drudge.feature.treefeller": "Tree Felling",
+	"gui.drudge.feature.tunnelborer": "Tunnel Boring",
+	"gui.drudge.feature.areaexcavator": "Area Excavation",
+
+	"gui.drudge.feature.treefeller.searching": "Tree Felling [Searching]",
+	"gui.drudge.feature.treefeller.going": "Tree Felling [Going]",
+	"gui.drudge.feature.treefeller.chopping": "Tree Felling [Chopping]",
+	"gui.drudge.feature.tunnelborer.progress": "Tunnel Boring [%s/%s]",
+	"gui.drudge.feature.areaexcavator.progress": "Area Excavation %s",
+	"gui.drudge.hud.treefeller": "Auto tree felling...",
+	"gui.drudge.hud.areaexcavator": "Excavating: %s",
+	"gui.drudge.hud.autotoolswitch": "Auto switching tool...",
+	"gui.drudge.hud.tunnelborer": "Digging tunnel...",
+
+	"gui.drudge.feature.areaexcavator.step.start_pos": "Select start position.",
+	"gui.drudge.feature.areaexcavator.step.end_pos": "Select end position.",
+	"gui.drudge.feature.areaexcavator.step.scan_area": "Scanning area...",
+	"gui.drudge.feature.areaexcavator.step.excavate": "Excavating...",
+	"gui.drudge.feature.areaexcavator.confirm": "Press enter to confirm, or select a different position.",
+
+	"gui.drudge.setting.treefeller.range": "Range",
+	"gui.drudge.setting.treefeller.face_target": "Face target",
+	"gui.drudge.setting.treefeller.swing_hand": "Swing hand",
+	"gui.drudge.setting.autotoolswitch.use_swords": "Use swords",
+	"gui.drudge.setting.autotoolswitch.use_hands": "Use hands",
+	"gui.drudge.setting.autotoolswitch.repair_mode": "Repair mode",
+	"gui.drudge.setting.autotoolswitch.switch_back": "Switch back",
+	"gui.drudge.setting.tunnelborer.tunnel_size": "Tunnel size",
+	"gui.drudge.setting.tunnelborer.limit": "Limit",
+	"gui.drudge.setting.tunnelborer.place_torches": "Place torches",
+	"gui.drudge.setting.areaexcavator.range": "Range",
+	"gui.drudge.setting.areaexcavator.mode": "Mode",
+
+	"gui.drudge.enum.facetarget.off": "Off",
+	"gui.drudge.enum.facetarget.server_side": "Server-side",
+	"gui.drudge.enum.facetarget.client_side": "Client-side",
+	"gui.drudge.enum.swinghand.off": "Off",
+	"gui.drudge.enum.swinghand.server_side": "Server-side",
+	"gui.drudge.enum.swinghand.client_side": "Client-side",
+	"gui.drudge.enum.mode.fast": "Fast",
+	"gui.drudge.enum.mode.legit": "Legit",
+
+	"gui.drudge.unit.blocks": " blocks",
+	"gui.drudge.unit.one_block": "1 block",
+	"gui.drudge.unit.disabled": "disabled",
+	"gui.drudge.unit.off": "off",
+
+	"chat.drudge.tunnelborer.completed": "Tunnel completed.",
+	"chat.drudge.tunnelborer.floor_hole": "Found a hole in the tunnel's floor but don't have any blocks to fill it with.",
+	"chat.drudge.tunnelborer.flooded": "The tunnel is flooded, cannot continue.",
+	"chat.drudge.tunnelborer.out_of_torches": "Out of torches.",
+
+	"description.drudge.feature.autotoolswitch": "Switches to the best tool in your hotbar for whatever you're about to mine.",
+	"description.drudge.feature.breakflow": "Removes the pause between blocks, so you can keep mining without stopping.",
+	"description.drudge.feature.treefeller": "Fells a whole tree from the bottom up.",
+	"description.drudge.feature.tunnelborer": "Bores a straight tunnel in the direction you're facing.",
+	"description.drudge.feature.areaexcavator": "Clears out everything between two corners you select.",
+
+	"description.drudge.setting.treefeller.range": "How far Tree Felling will reach to break blocks.",
+	"description.drudge.setting.treefeller.face_target": "How Tree Felling should aim at the blocks it breaks.",
+	"description.drudge.setting.treefeller.swing_hand": "How Tree Felling should swing your hand when breaking blocks.",
+
+	"description.drudge.setting.autotoolswitch.use_swords": "Uses swords to break leaves, cobwebs, etc.",
+	"description.drudge.setting.autotoolswitch.use_hands": "Uses an empty hand or a non-damageable item when no applicable tool is found.",
+	"description.drudge.setting.autotoolswitch.repair_mode": "Prevents tools from being used when their durability reaches the given threshold, so you can repair them before they break.\nCan be adjusted from 0 (off) to 100 remaining uses.",
+	"description.drudge.setting.autotoolswitch.switch_back": "After using a tool, automatically switches back to the previously selected slot.",
+
+	"description.drudge.setting.tunnelborer.limit": "Automatically stops once the tunnel has reached the given length.\n\n0 = no limit",
+	"description.drudge.setting.tunnelborer.place_torches": "Places just enough torches to prevent mobs from spawning inside the tunnel.",
+
+	"description.drudge.setting.generic.face_target.off": "Never aims at anything.",
+	"description.drudge.setting.generic.face_target.server": "Only aims on the server side, so you don't see the camera move.",
+	"description.drudge.setting.generic.face_target.client": "Aims on the client side, so you see the camera move.",
+
+	"description.drudge.setting.generic.swing_hand.off": "Doesn't swing your hand at all.",
+	"description.drudge.setting.generic.swing_hand.server": "Swings on the server side, so other players see the animation.",
+	"description.drudge.setting.generic.swing_hand.client": "Swings on the client side, so only you see the animation."
+}

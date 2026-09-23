@@ -1,0 +1,45 @@
+package com.ab1f5a.drudge.ai;
+
+import net.minecraft.core.BlockPos;
+
+public class PathPos extends BlockPos
+{
+	private final boolean jumping;
+	
+	public PathPos(BlockPos pos)
+	{
+		this(pos, false);
+	}
+	
+	public PathPos(BlockPos pos, boolean jumping)
+	{
+		super(pos.getX(), pos.getY(), pos.getZ());
+		this.jumping = jumping;
+	}
+	
+	public boolean isJumping()
+	{
+		return jumping;
+	}
+	
+	@Override
+	public boolean equals(Object obj)
+	{
+		if(this == obj)
+			return true;
+		
+		if(!(obj instanceof PathPos))
+			return false;
+		
+		PathPos node = (PathPos)obj;
+		
+		return getX() == node.getX() && getY() == node.getY()
+			&& getZ() == node.getZ() && isJumping() == node.isJumping();
+	}
+	
+	@Override
+	public int hashCode()
+	{
+		return super.hashCode() * 2 + (isJumping() ? 1 : 0);
+	}
+}
