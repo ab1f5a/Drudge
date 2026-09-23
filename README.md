@@ -45,5 +45,4 @@ The output jar is `build/libs/drudge-1.0.0.jar`.
 Licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE) for
 the full text and [NOTICE](NOTICE) for copyright and attribution.
 
-This project is based on [Wurst](https://github.com/Wurst-Imperium/Wurst7),
-Copyright (c) 2014-2026 Wurst-Imperium and contributors.
+Some source codes refer to [Wurst](https://github.com/Wurst-Imperium/Wurst7)
